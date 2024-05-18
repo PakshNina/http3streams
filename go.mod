@@ -2,7 +2,10 @@ module http3streams
 
 go 1.22.1
 
-require github.com/quic-go/quic-go v0.42.0
+require (
+	github.com/quic-go/quic-go v0.42.0
+	github.com/sirupsen/logrus v1.9.3
+)
 
 require (
 	github.com/go-task/slim-sprig v0.0.0-20230315185526-52ccab3ef572 // indirect
